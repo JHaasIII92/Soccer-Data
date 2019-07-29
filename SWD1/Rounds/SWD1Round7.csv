@@ -1,0 +1,17 @@
+League,Team,Team_Code,GF,GA,First_Half_Ball_Possession,First_Half_Goal_Attempts,First_Half_Shots_on_Goal,First_Half_Shots_off_Goal,First_Half_Blocked_Shots,First_Half_Free_Kicks,First_Half_Corner_Kicks,First_Half_Offsides,First_Half_Throw_in,First_Half_Goalkeeper_Saves,First_Half_Fouls,First_Half_Red_Cards,First_Half_Yellow_Cards,First_Half_Total_Passes,First_Half_Completed_Passes,First_Half_A,First_Half_DA,First_Half_Tackles,Second_Half_Ball_Possession,Second_Half_Goal_Attempts,Second_Half_Shots_on_Goal,Second_Half_Shots_off_Goal,Second_Half_Blocked_Shots,Second_Half_Free_Kicks,Second_Half_A,Second_Half_DA,Second_Half_Corner_Kicks,Second_Half_Offsides,Second_Half_Throw_in,Second_Half_Goalkeeper_Saves,Second_Half_Fouls,Second_Half_Red_Cards,Second_Half_Yellow_Cards,Second_Half_Total_Passes,Second_Half_Completed_Passes,Second_Half_Tackles,Lineup,Points,HomeAway,HW,D,HL,Target
+5/6/19 13:00,SWD1,Elfsborg,2.44807E+67,0,0,47,2,1,1,0,6,2,2,0,1,0,0,3,0,0,0,57,26,63,6,4,2,0,6,6,2,0,0,0,0,0,0,0,0,65,33,451,1,1,0,1,0,0
+5/6/19 13:00,SWD1,Norrkoping,8.00234E+66,0,0,53,2,1,1,0,11,3,1,0,1,0,0,1,0,0,0,38,13,37,0,0,0,0,7,1,2,0,4,0,0,0,0,0,0,44,17,5311,1,-1,0,1,0,0
+5/6/19 13:00,SWD1,Helsingborg,2.32787E+67,1,1,37,5,2,3,0,8,1,2,0,1,0,0,2,0,0,0,74,32,47,8,1,7,0,8,0,3,0,3,0,0,0,0,0,0,61,29,4231,1,1,0,1,0,0
+5/6/19 13:00,SWD1,Djurgarden,1.06664E+67,1,1,63,3,2,1,0,5,2,4,0,2,0,0,0,0,0,0,63,17,53,4,3,1,0,7,2,1,0,0,0,0,3,0,0,0,90,23,433,1,-1,0,1,0,0
+5/5/19 11:30,SWD1,Orebro,6.48168E+66,2,3,47,2,1,1,0,7,1,1,0,0,0,0,0,0,0,0,58,11,49,6,4,2,0,8,2,0,0,2,0,0,0,0,0,0,66,19,343,0,1,0,0,1,-1
+5/5/19 11:30,SWD1,Hammarby,1.91275E+67,3,2,53,8,1,7,0,10,7,2,0,1,0,0,0,0,0,0,59,34,51,10,4,6,0,7,3,0,0,2,0,0,2,0,0,0,55,26,433,3,-1,1,0,0,-1
+5/5/19 9:00,SWD1,Falkenbergs,2.57531E+67,1,2,47,8,2,6,0,7,2,0,0,2,0,0,0,0,0,0,50,30,47,3,2,1,0,8,1,4,0,1,0,0,2,0,0,0,42,16,451,0,1,0,0,1,-1
+5/5/19 9:00,SWD1,Malmo_FF,2.09354E+67,2,1,53,6,4,2,0,5,2,1,0,1,0,0,0,0,0,0,47,26,53,2,1,1,0,14,1,1,0,2,0,0,2,0,0,0,46,23,442,3,-1,1,0,0,-1
+5/5/19 9:00,SWD1,Hacken,2.40175E+67,1,0,47,5,3,2,0,6,3,0,0,3,0,0,0,0,0,0,49,32,45,7,4,3,0,6,7,0,0,1,0,0,1,0,0,0,34,26,433,3,1,1,0,0,1
+5/5/19 9:00,SWD1,Sundsvall,5.39777E+66,0,1,53,4,3,1,0,10,3,0,0,3,0,0,1,0,0,0,42,18,55,3,1,2,0,12,1,0,0,3,0,0,2,0,0,0,53,27,343,0,-1,0,0,1,1
+5/5/19 9:00,SWD1,Kalmar,1.27786E+67,1,1,64,9,4,5,0,6,5,0,0,2,0,0,3,0,0,0,72,47,48,7,3,4,0,11,6,2,0,2,0,0,1,0,0,0,63,46,352,1,1,0,1,0,0
+5/5/19 9:00,SWD1,Ostersunds,2.41099E+67,1,1,36,5,3,2,0,7,1,0,0,4,0,0,2,0,0,0,46,18,52,4,2,2,0,11,3,1,0,2,0,0,3,0,0,0,34,25,433,1,-1,0,1,0,0
+5/4/19 10:00,SWD1,Sirius,8.51862E+66,2,4,52,3,1,2,0,7,0,0,0,1,0,0,1,0,0,0,57,21,50,1,0,1,0,8,2,0,0,1,0,0,1,0,0,0,68,26,343,0,1,0,0,1,-1
+5/4/19 10:00,SWD1,Goteborg,2.04112E+67,4,2,48,2,2,0,0,8,1,0,0,0,0,0,1,0,0,0,65,16,50,6,4,2,0,4,2,1,0,0,0,0,0,0,0,0,55,20,433,3,-1,1,0,0,-1
+5/4/19 7:30,SWD1,AIK,1.78681E+67,2,1,60,4,2,2,0,10,2,2,0,1,0,0,0,0,0,0,65,34,52,5,2,3,0,6,3,2,24,3,0,0,1,0,0,0,76,36,442,3,1,1,0,0,1
+5/4/19 7:30,SWD1,AFC_Eskilstuna,8.10484E+66,1,2,40,1,1,0,0,7,1,3,0,1,0,1,1,0,0,0,43,19,48,7,4,3,0,5,3,0,14,1,0,0,0,0,0,0,37,13,343,0,-1,0,0,1,1

@@ -1,0 +1,17 @@
+League,Team,Team_Code,GF,GA,First_Half_Ball_Possession,First_Half_Goal_Attempts,First_Half_Shots_on_Goal,First_Half_Shots_off_Goal,First_Half_Blocked_Shots,First_Half_Free_Kicks,First_Half_Corner_Kicks,First_Half_Offsides,First_Half_Throw_in,First_Half_Goalkeeper_Saves,First_Half_Fouls,First_Half_Red_Cards,First_Half_Yellow_Cards,First_Half_Total_Passes,First_Half_Completed_Passes,First_Half_Tackles,Second_Half_Ball_Possession,Second_Half_Goal_Attempts,Second_Half_Shots_on_Goal,Second_Half_Shots_off_Goal,Second_Half_Blocked_Shots,Second_Half_Free_Kicks,Second_Half_Corner_Kicks,Second_Half_Offsides,Second_Half_Throw_in,Second_Half_Goalkeeper_Saves,Second_Half_Fouls,Second_Half_Red_Cards,Second_Half_Yellow_Cards,Second_Half_Total_Passes,Second_Half_Completed_Passes,Second_Half_Tackles,Lineup,Points,HomeAway,HW,D,HL,Target
+6/16/19 6:35,CHI1,Jiangsu_Suning,2.17024E+67,4,1,57,9,3,3,3,15,2,1,0,0,6,0,2,275,246,5,59,12,5,5,2,6,0,0,0,3,7,0,1,242,214,4,541,3,1,1,0,0,1
+6/16/19 6:35,CHI1,Beijing_Renhe,5.52232E+66,1,4,43,0,0,0,0,8,0,1,0,3,16,0,2,203,170,9,41,5,4,1,0,6,2,0,0,1,8,0,2,163,132,5,442,0,-1,0,0,1,1
+6/16/19 6:35,CHI1,Shenzhen,1.3102E+67,0,0,41,3,0,3,0,6,0,0,0,1,14,0,2,170,131,8,45,3,1,1,1,7,4,0,0,1,5,0,0,136,96,7,433,1,1,0,1,0,0
+6/16/19 6:35,CHI1,Tianjin_Teda,3.29542E+66,0,0,59,5,1,2,2,12,1,0,0,0,6,0,0,246,196,8,55,6,1,3,2,6,5,1,0,1,9,0,1,174,133,6,433,1,-1,0,1,0,0
+6/16/19 6:35,CHI1,Tianjin_Tianhai,5.8828E+65,1,1,61,5,2,3,0,2,1,0,0,2,6,0,0,261,223,16,63,6,2,3,1,11,2,0,0,0,7,0,0,251,197,6,3142,1,1,0,1,0,0
+6/16/19 6:35,CHI1,Henan_Jianye,1.47245E+67,1,1,39,6,2,3,1,7,5,1,0,1,3,0,0,164,121,8,37,7,1,5,1,9,1,2,0,2,11,0,1,149,91,14,532,1,-1,0,1,0,0
+6/15/19 6:35,CHI1,Guangzhou_R&F,6.76289E+66,3,4,46,11,5,2,4,1,1,0,0,1,8,0,1,196,167,12,52,14,8,3,3,3,3,0,0,1,8,0,0,209,182,12,433,0,1,0,0,1,-1
+6/15/19 6:35,CHI1,Wuhan_Zall,2.34093E+67,4,3,54,5,2,3,0,8,4,0,0,3,1,0,0,215,183,3,48,8,4,1,3,7,4,0,0,7,4,0,1,190,163,10,433,3,-1,1,0,0,-1
+6/15/19 6:35,CHI1,Hebei,1.98573E+67,1,0,51,5,3,2,0,14,3,1,0,0,7,0,0,221,187,5,43,2,1,0,1,6,3,0,0,0,4,0,2,195,149,5,433,3,1,1,0,0,1
+6/15/19 6:35,CHI1,Dalian_Yifang_F.C.,2.32253E+67,0,1,49,6,0,3,3,6,2,1,0,3,10,0,0,210,169,6,57,2,0,1,1,6,1,0,0,0,10,1,1,243,202,8,433,0,-1,0,0,1,1
+6/14/19 7:00,CHI1,Shanghai_SIPG,6.36906E+66,0,2,48,5,3,2,0,10,4,2,0,2,5,0,0,190,161,4,63,6,1,3,2,7,3,0,0,0,6,0,1,234,189,6,343,0,1,0,0,1,-1
+6/14/19 7:00,CHI1,Guangzhou_Evergrande,1.1865E+67,2,0,52,5,3,2,0,4,0,0,0,3,8,0,0,200,163,17,37,2,1,1,0,7,0,2,0,1,7,0,1,144,97,10,3142,3,-1,1,0,0,-1
+6/14/19 6:35,CHI1,Chongqing_Lifan,1.60263E+67,1,1,68,8,1,2,5,11,7,1,0,2,5,0,0,241,197,1,50,2,1,0,1,10,3,1,0,1,4,0,1,163,109,9,3142,1,1,0,1,0,0
+6/14/19 6:35,CHI1,Shandong_Luneng,6.38077E+66,1,1,32,2,2,0,0,6,1,0,0,1,10,0,1,111,69,7,50,7,2,4,1,6,5,3,0,0,9,0,2,168,129,10,4231,1,-1,0,1,0,0
+6/14/19 5:00,CHI1,Beijing_Guoan,2.0508E+67,2,1,66,7,2,1,4,8,4,2,0,1,5,0,0,322,278,7,51,6,2,4,0,4,2,1,0,1,7,0,0,221,179,10,4312,3,1,1,0,0,1
+6/14/19 5:00,CHI1,Shanghai_Shenhua,1.67705E+67,1,2,34,3,1,0,2,5,0,0,0,0,6,0,1,164,127,6,49,8,2,4,2,7,6,0,0,2,3,0,1,195,158,7,532,0,-1,0,0,1,1
