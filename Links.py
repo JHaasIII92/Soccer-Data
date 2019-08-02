@@ -1,3 +1,11 @@
+#-----------------------------------------------------------------------#
+#
+# Purpose: This script is used to get the match IDs from Soccer24.com
+#	The match IDs are used to make the links to the match statistics
+#	IDs are written to an excel spreadsheet and saved to
+#	the leagues folder
+#
+#-----------------------------------------------------------------------#
 from selenium import webdriver
 from selenium.webdriver.firefox.options import Options
 from bs4 import BeautifulSoup as soup
@@ -24,7 +32,6 @@ def main():
 	my_soup = get_soup(url)
 	round_nums, ids = get_id(my_soup)
 	write_to_xlsx(file_name, round_nums, ids)
-
 #-----------------------------------------------------------------------#
 #-----------------------------------------------------------------------#
 #-----------------------------------------------------------------------#
@@ -37,7 +44,6 @@ def get_soup(url):
 	driver.quit()
 	my_soup = soup(html,"html.parser")
 	return my_soup
-
 #-----------------------------------------------------------------------#
 #-----------------------------------------------------------------------#
 #-----------------------------------------------------------------------#
@@ -58,7 +64,6 @@ def get_id(my_soup):
             Round = strDiv[begin:end]
             round_nums.append(Round)
     return round_nums, ids
-
 #-----------------------------------------------------------------------#
 #-----------------------------------------------------------------------#
 #-----------------------------------------------------------------------#
