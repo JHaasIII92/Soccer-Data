@@ -1,3 +1,12 @@
+#-----------------------------------------------------------------------------------------#
+# Purpose:	The purpose of the of this script is to use the scrapper libary
+# 	to scrape match stats from Soccer24.com for a specific league
+#	and spcified rounds.
+#
+# Dependents:	the excel spread sheet made by Links.py titled LEAGUE_ID.xlsx 
+#	this spread sheet must be located in the leagues folder exactly where 
+#	Links.py places it.
+#-------------------------------------------------------------------------------------#
 from scrapper import s24Scraper as sS24
 from scrapper import s24Derived as dS24
 from mySoup import mySoup
