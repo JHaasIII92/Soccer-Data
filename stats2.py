@@ -1,12 +1,3 @@
-#-----------------------------------------------------------------------------------------#
-# Purpose:	The purpose of the of this script is to use the scrapper libary
-# 	to scrape match stats from Soccer24.com for a specific league
-#	and spcified rounds.
-#
-# Dependents:	the excel spread sheet made by Links.py titled LEAGUE_ID.xlsx 
-#	this spread sheet must be located in the leagues folder exactly where 
-#	Links.py places it.
-#-------------------------------------------------------------------------------------#
 from scrapper import s24Scraper as sS24
 from scrapper import s24Derived as dS24
 from mySoup import mySoup
@@ -14,36 +5,20 @@ from mySoup import mySoup
 import pandas as pd
 from os import system, name
 import pyfiglet
-
-League_sheets ={
-'GER1':'GER1_ID.xlsx',
-'ENG2':'ENG2_ID.xlsx',
-'ENG1':'ENG1_ID.xlsx',
-#'ENG1':'ENG1_ID_1718.xlsx',
-'IT1':'IT1_ID.xlsx',
-'TUR1':'TUR1_ID.xlsx',
-'FRN1':'FRN1_ID.xlsx',
-'SP1':'SP1_ID.xlsx',
-'SP2':'SP2_ID.xlsx',
-'NET1':'NET1_ID.xlsx',
-'PORT1':'PORT1_ID.xlsx',
-'RUS1':'RUS1_ID.xlsx',
-'RUS2':'RUS2_ID.xlsx',
-'IRL1':'IRL1_ID.xlsx',
-'JP1':'JP1_ID.xlsx',
-#'JP1':'JP12018_ID.xlsx',
-'CHI1':'CHI1_ID.xlsx',
-'SK1':'SK1_ID.xlsx',
-'SWD1':'SWD1_ID.xlsx',
-'BRZ1':'BRZ1_ID.xlsx'
-}
-
 def main():
-	league = "CHI1"
-	sheet_name = league +'/'+ League_sheets[league]
-	round_num = ['19']
+	inShell = input("Enter in Shell? (yes/no): ")
+	if inShell!="yes":
+		league = "CHL1"
+		round_num = ['1','2','3']
+	else:
+	    	league = input("Enter League: ")
+	    	numRounds = int(input("Enter Number Of Rounds: "))
+	    	round_num = []
+	    	for i in range(numRounds):
+	    		inputNum = input("Round Number: ")
+	    		round_num.append(inputNum)
+	sheet_name = league +'/'+ league + '_ID.xlsx'
 	totalRounds = len(round_num)
-
 	_ = system('clear')
 	for i in range (totalRounds):
 		result = pyfiglet.figlet_format("SOCCER 24!", font =  "slant")
@@ -116,7 +91,7 @@ def make_K_rows(stat_soup, line_up_soup ,round_num, league):
     
     home = date +' '+ time + ',' + league + ',' + home_team + ',' + home_team + ',' + away_team + ',' + home_goals + ',' + away_goals + ',' + first_home_stat_table + ',' + second_home_stat_table + ',' + home_lineup + ',' + home_points + ',' + '1' + ',' + Htarget + ',' + Jtarget + '\n'
     
-    away = date +' '+ time + ',' + league + ',' + away_team + ',' + home_team + ',' + away_team + ',' + home_goals + ',' + away_goals + ',' + first_away_stat_table + ',' + second_away_stat_table + ',' + away_lineup + ',' + away_points + ',' + '-1' + ',' + Atarget + ',' + Jtarget +'\n'
+    away = date +' '+ time + ',' + league + ',' + away_team + ',' + home_team + ',' + away_team + ',' + away_goals + ',' + home_goals + ',' + first_away_stat_table + ',' + second_away_stat_table + ',' + away_lineup + ',' + away_points + ',' + '-1' + ',' + Atarget + ',' + Jtarget +'\n'
     
     return home,away
 #-----------------------------------------------------------------------#

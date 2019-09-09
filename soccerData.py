@@ -29,7 +29,7 @@ int list weeks: desierd weeks to be added to data frame"""
 #-------------------------------------------------------------------------------------------#
 #-------------------------------------------------------------------------------------------#
 #-------------------------------------------------------------------------------------------#
-	def rolling(homeTeamDF, awayTeamDF, roundsDF):
+	def rolling(homeTeamDF, awayTeamDF, roundsDF, skewHA=False):
 		"""Rolling is used to normalize training data that incorperates past preformaces
 with the teams training week preformance
 str league: The two to three letter league code
@@ -41,7 +41,12 @@ np float array homeAVG: Normalized training data with recpect to home team"""
 		meanHomeStats = []
 		stdHomeStats = []
 		for i, rows in homeTeamDF.iterrows():
-			temp = roundsDF.loc[roundsDF.Team == rows.Team].iloc[:,3:].values.astype(float)
+			
+			if skewHA:
+				temp = roundsDF.loc[roundsDF[::2].Team == rows.Team].iloc[:,5:].values.astype(float)
+			else:
+				temp = roundsDF.loc[roundsDF.Team == rows.Team].iloc[:,5:].values.astype(float)
+			
 			tempMean = np.mean(temp, axis=0)
 			tempSTD = np.std(temp, axis=0)
 			meanHomeStats.append(tempMean)
@@ -49,7 +54,10 @@ np float array homeAVG: Normalized training data with recpect to home team"""
 		meanAwayStats = []
 		stdAwayStats = []
 		for i, rows in awayTeamDF.iterrows():
-			temp = roundsDF.loc[roundsDF.Team == rows.Team].iloc[:,3:].values.astype(float)
+			if skewHA:
+				temp = roundsDF.loc[roundsDF[1::2].Team == rows.Team].iloc[:,5:].values.astype(float)
+			else:
+				temp = roundsDF.loc[roundsDF.Team == rows.Team].iloc[:,5:].values.astype(float)
 			tempMean = np.mean(temp, axis=0)
 			tempSTD = np.std(temp, axis=0)
 			meanAwayStats.append(tempMean)
@@ -78,7 +86,7 @@ np float array homeAVG: Normalized training data with recpect to home team"""
 #-------------------------------------------------------------------------------------------#
 #-------------------------------------------------------------------------------------------#
 #-------------------------------------------------------------------------------------------#
-	def get_train_and_target(league,weeks,seasonDF):
+	def get_train_and_target(league,weeks,seasonDF, skewHA=False, addSTD=False):
 		"""Use this method to retrive a training set for any week and target
 Calls rolling to normalize the training set and returns the target of given
 traing week"""
@@ -90,12 +98,15 @@ traing week"""
 		data = seasonDF[seasonDF.Round.isin(weeks)].iloc[:,2:-5]
 		#---------------------Call-Normalizor---------------------#
 		homeMeanAVG, homeSTDAVG = DataPrep.rolling( homeTeams, awayTeams, data )
-		train = np.hstack((homeMeanAVG, homeSTDAVG))
+		if addSTD:
+			train = np.hstack((homeMeanAVG, homeSTDAVG))
+		else:
+			train = homeMeanAVG
 		return train[:,1:], target
 #-------------------------------------------------------------------------------------------#
 #-------------------------------------------------------------------------------------------#
 #-------------------------------------------------------------------------------------------#
-	def get_played_prediction_set(league, predictionWeek, weeks, seasonDF):
+	def get_played_prediction_set(league, predictionWeek, weeks, seasonDF, skewHA=False):
 		"""Use this method to make a prediction set 
 for a week that has already been played"""
 		#------------------------Set-Up---------------------------#
@@ -110,32 +121,37 @@ for a week that has already been played"""
 #------------------------------------------------------------------------------------------#
 #------------------------------------------------------------------------------------------#
 #------------------------------------------------------------------------------------------#
-	def get_prediction_set(league, predictionWeek, weeks, seasonDF):
+	def get_prediction_set(league, predictionWeek, weeks, seasonDF, skewHA=False, addSTD=False):
 		"""Use this method to make a prediction set for an upcoming week"""
 		#------------------------Set-Up---------------------------#
-		fn = league +"/"+ league + "_Round" + str(predictionWeek) + ".csv"
-		homeTeams = pd.read_csv(fn,usecols=[2])
-		homeTeams.columns = ["Team"]
-		awayTeams = pd.read_csv(fn,usecols=[3])
-		awayTeams.columns = ["Team"]
-		data = seasonDF[seasonDF.Round.isin(weeks)].iloc[:,2:-5]
+		try:
+			fn = league +"/"+ league + "_Round" + str(predictionWeek) + ".csv"
+			homeTeams = pd.read_csv(fn,usecols=[1])
+			homeTeams.columns = ["Team"]
+			awayTeams = pd.read_csv(fn,usecols=[2])
+			awayTeams.columns = ["Team"]
+		except:
+			homeTeams = pd.DataFrame((seasonDF.loc[seasonDF.Round==predictionWeek][::2].Home))
+			homeTeams.columns = ["Team"]
+			awayTeams = pd.DataFrame((seasonDF.loc[seasonDF.Round==predictionWeek][::2].Away))
+			awayTeams.columns = ["Team"]
 		#---------------------Call-Normalizor---------------------#
+		data = seasonDF[seasonDF.Round.isin(weeks)].iloc[:,2:-5]
 		homeMeanAVG, homeSTDAVG = DataPrep.rolling( homeTeams, awayTeams, data )
-		pSet = np.hstack((homeMeanAVG, homeSTDAVG))
+		if addSTD:
+			pSet = np.hstack((homeMeanAVG, homeSTDAVG))
+		else:
+			pSet = homeMeanAVG
 		return pSet[:,1:]
 #------------------------------------------------------------------------------------------#
 #------------------------------------------------------------------------------------------#
-#------------------------------------------------------------------------------------------#   
+#------------------------------------------------------------------------------------------#     
 	def get_odds_sheet(league):
 		"""Use this method to get the odds for any specified league 
 curently season 2018/2019 only"""
-
 		#-Read-in-Bet-Explorer-CSV-#
-		fn = "Odds/bEx.csv"
+		fn = league + "/Odds.csv"
 		df = pd.read_csv(fn)
-		#-Locate-All-Rows-With-Specified-League-#
-		df = df.loc[df.League == league]
-		df.index = pd.to_datetime(df.index)
 		return df
 #------------------------------------------------------------------------------------------#
 #------------------------------------------------------------------------------------------#

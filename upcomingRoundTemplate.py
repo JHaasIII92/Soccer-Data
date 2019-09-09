@@ -10,7 +10,18 @@ leagueDict = {
 "JP1":"https://www.soccer24.com/japan/j-league/",
 "SK1":"https://www.soccer24.com/south-korea/k-league-1/",
 "SWD1":"https://www.soccer24.com/sweden/allsvenskan/",
-"BRZ1":"https://www.soccer24.com/brazil/serie-a/"
+"BRZ1":"https://www.soccer24.com/brazil/serie-a/",
+"RUS1":"https://www.soccer24.com/russia/premier-league/",
+"RUS2":"https://www.soccer24.com/russia/fnl/",
+"BEL1":"https://www.soccer24.com/belgium/jupiler-league/",
+"BUL1":"https://www.soccer24.com/bulgaria/parva-liga/",
+"CZR1":"https://www.soccer24.com/czech-republic/1-liga/",
+"NOR1":"https://www.soccer24.com/norway/eliteserien/",
+"RMN1":"https://www.soccer24.com/romania/liga-1/",
+"SRB1":"https://www.soccer24.com/serbia/super-liga/",
+"ARG1":"https://www.soccer24.com/argentina/superliga/",
+"CHL1":"https://www.soccer24.com/chile/primera-division/",
+"COL1":"https://www.soccer24.com/colombia/liga-aguila/",
 }
 
 def main():
@@ -33,7 +44,7 @@ def prepareDate(dates, homeTeams, awayTeams, fn):
 	table = np.hstack((dates,homeTeams,awayTeams))
 	tableDF = pd.DataFrame(table, columns = ["Dates","Home","Away"])
 
-	tableDF.to_csv(fn)
+	tableDF.to_csv(fn,index=False)
 
 
 def removeSpace(a):
