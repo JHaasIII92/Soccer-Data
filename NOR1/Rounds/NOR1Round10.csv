@@ -1,0 +1,17 @@
+League,Team,Home,Away,GF,GA,First_Half_Ball_Possession,First_Half_Goal_Attempts,First_Half_Shots_on_Goal,First_Half_Shots_off_Goal,First_Half_Blocked_Shots,First_Half_Free_Kicks,First_Half_Corner_Kicks,First_Half_Offsides,First_Half_Throw_in,First_Half_Goalkeeper_Saves,First_Half_Fouls,First_Half_Red_Cards,First_Half_Yellow_Cards,First_Half_Total_Passes,First_Half_Completed_Passes,First_Half_A,First_Half_DA,First_Half_Tackles,Second_Half_Ball_Possession,Second_Half_Goal_Attempts,Second_Half_Shots_on_Goal,Second_Half_Shots_off_Goal,Second_Half_Blocked_Shots,Second_Half_Free_Kicks,Second_Half_A,Second_Half_DA,Second_Half_Corner_Kicks,Second_Half_Offsides,Second_Half_Throw_in,Second_Half_Goalkeeper_Saves,Second_Half_Fouls,Second_Half_Red_Cards,Second_Half_Yellow_Cards,Second_Half_Total_Passes,Second_Half_Completed_Passes,Second_Half_Tackles,Lineup,Points,HomeAway,HW,D,HL,Target
+08/14/2019 12:00,NOR1,Kristiansund,Kristiansund,Bodo/Glimt,1,2,47,7,0,7,0,0,4,2,22,0,4,0,1,0,0,0,48,21,57,6,4,2,0,0,6,2,15,0,8,0,0,0,0,0,56,29,433,0,1,0,0,1,-1
+08/14/2019 12:00,NOR1,Bodo/Glimt,Kristiansund,Bodo/Glimt,2,1,53,5,1,4,0,0,3,2,11,0,5,0,1,0,0,0,36,23,43,1,1,0,0,0,1,1,12,3,10,1,3,0,0,0,51,17,433,3,-1,1,0,0,-1
+08/14/2019 12:00,NOR1,Viking,Viking,Sarpsborg_08,2,1,46,2,1,1,0,0,3,1,11,0,8,0,0,0,0,0,70,23,54,5,3,2,0,0,0,2,4,1,8,0,2,0,0,0,49,20,433,3,1,1,0,0,1
+08/14/2019 12:00,NOR1,Sarpsborg_08,Viking,Sarpsborg_08,1,2,54,1,0,1,0,0,0,3,7,1,9,0,1,0,0,0,60,15,46,5,2,3,0,0,1,2,8,1,10,1,2,0,0,0,46,28,343,0,-1,0,0,1,1
+07/10/2019 12:00,NOR1,Odd,Odd,Stabaek,2,1,63,4,4,0,0,0,4,3,13,1,0,0,0,0,0,0,76,34,55,10,6,4,0,0,4,2,4,0,8,0,1,0,0,0,58,27,433,3,1,1,0,0,1
+07/10/2019 12:00,NOR1,Stabaek,Odd,Stabaek,1,2,37,3,2,1,0,0,1,0,11,3,5,0,0,0,0,0,26,8,45,1,0,1,0,0,0,1,9,5,13,0,1,0,0,0,51,22,4411,0,-1,0,0,1,1
+05/26/2019 13:00,NOR1,Brann,Brann,Rosenborg,0,1,58,3,3,0,0,0,4,3,11,0,5,0,0,0,0,0,62,24,56,3,1,2,0,0,2,3,15,1,5,0,0,0,0,0,53,30,433,0,1,0,0,1,-1
+05/26/2019 13:00,NOR1,Rosenborg,Brann,Rosenborg,1,0,42,4,0,4,0,0,5,1,10,3,8,0,1,0,0,0,45,22,44,5,2,3,0,0,4,1,9,1,7,0,0,0,0,0,57,27,433,3,-1,1,0,0,-1
+05/26/2019 11:00,NOR1,Mjondalen,Mjondalen,Haugesund,1,4,49,7,3,4,0,0,5,0,15,0,1,0,0,0,0,0,67,32,47,5,3,2,0,0,4,0,12,1,4,1,3,0,0,0,72,32,433,0,1,0,0,1,-1
+05/26/2019 11:00,NOR1,Haugesund,Mjondalen,Haugesund,4,1,51,4,2,2,0,0,1,2,10,3,2,0,0,0,0,0,47,21,53,7,3,4,0,0,0,1,9,2,6,0,0,0,0,0,40,27,4411,3,-1,1,0,0,-1
+05/26/2019 11:00,NOR1,Ranheim,Ranheim,Stromsgodset,1,0,52,3,2,1,0,0,1,3,8,1,4,0,1,0,0,0,45,14,42,1,1,0,0,0,1,1,9,0,3,0,0,0,0,0,42,22,433,3,1,1,0,0,1
+05/26/2019 11:00,NOR1,Stromsgodset,Ranheim,Stromsgodset,0,1,48,4,1,3,0,0,3,1,12,1,4,0,0,0,0,0,68,31,58,0,0,0,0,0,4,2,5,1,6,0,1,0,0,0,74,30,4141,0,-1,0,0,1,1
+05/26/2019 11:00,NOR1,Tromso,Tromso,Molde,2,1,47,4,3,1,0,0,0,4,10,1,5,0,1,0,0,0,42,27,30,4,1,3,0,0,2,2,2,2,1,1,2,0,0,0,17,8,343,3,1,1,0,0,1
+05/26/2019 11:00,NOR1,Molde,Tromso,Molde,1,2,53,6,1,5,0,0,2,6,6,2,9,0,0,0,0,0,77,28,70,6,3,3,0,0,7,2,5,0,9,0,2,0,0,0,63,68,4231,0,-1,0,0,1,1
+05/25/2019 11:00,NOR1,Valerenga,Valerenga,Lillestrom,0,3,53,5,2,3,0,0,2,1,7,1,2,0,1,0,0,0,79,26,55,2,0,2,0,0,4,2,6,0,7,1,3,0,0,0,68,35,4231,0,1,0,0,1,-1
+05/25/2019 11:00,NOR1,Lillestrom,Valerenga,Lillestrom,3,0,47,3,2,1,0,0,0,1,10,2,9,0,1,0,0,0,65,13,45,4,2,2,0,0,1,0,12,0,7,0,0,0,0,0,34,21,4411,3,-1,1,0,0,-1
