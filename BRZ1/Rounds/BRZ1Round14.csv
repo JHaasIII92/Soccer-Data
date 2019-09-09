@@ -1,0 +1,21 @@
+League,Team,Home,Away,GF,GA,First_Half_Ball_Possession,First_Half_Goal_Attempts,First_Half_Shots_on_Goal,First_Half_Shots_off_Goal,First_Half_Blocked_Shots,First_Half_Free_Kicks,First_Half_Corner_Kicks,First_Half_Offsides,First_Half_Throw_in,First_Half_Goalkeeper_Saves,First_Half_Fouls,First_Half_Red_Cards,First_Half_Yellow_Cards,First_Half_Total_Passes,First_Half_Completed_Passes,First_Half_A,First_Half_DA,First_Half_Tackles,Second_Half_Ball_Possession,Second_Half_Goal_Attempts,Second_Half_Shots_on_Goal,Second_Half_Shots_off_Goal,Second_Half_Blocked_Shots,Second_Half_Free_Kicks,Second_Half_A,Second_Half_DA,Second_Half_Corner_Kicks,Second_Half_Offsides,Second_Half_Throw_in,Second_Half_Goalkeeper_Saves,Second_Half_Fouls,Second_Half_Red_Cards,Second_Half_Yellow_Cards,Second_Half_Total_Passes,Second_Half_Completed_Passes,Second_Half_Tackles,Lineup,Points,HomeAway,HW,D,HL,Target
+8/12/19 18:00,BRZ1,CSA,CSA,Fortaleza,0,2,64,12,3,7,2,9,1,2,0,0,8,0,2,264,237,8,82,33,38,4,2,2,0,7,1,1,0,1,11,0,1,199,170,10,55,33,4222,0,1,0,0,1,-1
+8/12/19 18:00,BRZ1,Fortaleza,CSA,Fortaleza,2,0,36,4,2,2,0,8,1,2,0,3,7,0,0,148,122,6,30,8,62,3,1,1,1,12,2,2,0,2,6,0,1,298,256,13,68,29,4411,3,-1,1,0,0,-1
+8/11/19 17:00,BRZ1,Goias,Goias,Vasco,0,1,50,8,2,2,4,9,2,1,0,2,7,0,2,202,166,8,58,26,60,12,3,4,5,14,1,1,0,2,7,0,2,220,185,9,74,29,4231,0,1,0,0,1,-1
+8/11/19 17:00,BRZ1,Vasco,Goias,Vasco,1,0,50,6,3,1,2,8,2,0,0,2,9,0,0,204,163,4,53,21,40,6,2,4,0,8,2,1,0,3,13,1,5,149,103,9,42,24,4231,3,-1,1,0,0,-1
+8/11/19 14:00,BRZ1,Avai,Avai,Cruzeiro,2,2,51,8,2,3,3,8,2,2,0,2,6,0,0,205,159,5,78,32,47,5,1,3,1,8,3,1,0,2,9,1,3,154,116,4,52,23,433,1,1,0,1,0,0
+8/11/19 14:00,BRZ1,Cruzeiro,Avai,Cruzeiro,2,2,49,6,2,2,2,8,1,0,0,1,8,0,0,204,157,8,46,16,53,8,4,4,0,10,0,2,0,0,7,1,3,180,142,6,60,24,4231,1,-1,0,1,0,0
+8/11/19 14:00,BRZ1,Botafogo_RJ,Botafogo_RJ,Athletico-PR,2,1,47,5,2,2,1,7,3,1,0,5,5,0,1,216,180,2,56,26,47,6,4,1,1,4,4,0,0,2,6,0,2,157,114,5,44,35,4141,3,1,1,0,0,1
+8/11/19 14:00,BRZ1,Athletico-PR,Botafogo_RJ,Athletico-PR,1,2,53,13,6,4,3,6,3,0,0,1,7,0,0,249,208,11,51,31,53,5,2,2,1,6,4,0,0,3,5,0,1,169,130,11,38,17,4231,0,-1,0,0,1,1
+8/11/19 14:00,BRZ1,Palmeiras,Palmeiras,Bahia,2,2,47,9,5,4,0,10,5,0,0,2,9,1,3,175,145,9,50,23,35,8,4,2,2,11,3,1,0,0,6,0,3,111,79,8,30,16,4231,1,1,0,1,0,0
+8/11/19 14:00,BRZ1,Bahia,Palmeiras,Bahia,2,2,53,4,2,1,1,9,3,0,0,4,10,0,2,203,162,8,56,15,65,3,2,1,0,4,0,1,0,3,9,1,3,227,202,2,49,11,433,1,-1,0,1,0,0
+8/11/19 9:00,BRZ1,Internacional,Internacional,Corinthians,0,0,58,2,1,1,0,4,4,1,0,0,9,0,1,278,236,12,72,27,54,5,0,3,2,4,5,2,0,1,7,0,2,272,227,10,79,35,433,1,1,0,1,0,0
+8/11/19 9:00,BRZ1,Corinthians,Internacional,Corinthians,0,0,42,3,0,2,1,9,2,0,0,1,4,0,0,206,166,11,58,15,46,5,1,2,2,9,1,0,0,0,4,0,2,241,186,13,71,15,4141,1,-1,0,1,0,0
+8/10/19 19:00,BRZ1,Atletico-MG,Atletico-MG,Fluminense,2,1,45,8,6,2,0,6,3,3,0,3,7,0,1,213,179,10,47,29,37,11,3,6,2,8,0,1,0,2,7,0,3,158,117,10,39,20,4231,3,1,1,0,0,1
+8/10/19 19:00,BRZ1,Fluminense,Atletico-MG,Fluminense,1,2,55,10,3,5,2,10,1,0,0,5,6,0,0,258,224,4,48,25,63,10,3,4,3,8,4,2,0,2,7,1,4,273,237,4,65,42,4141,0,-1,0,0,1,1
+8/10/19 17:00,BRZ1,Flamengo_RJ,Flamengo_RJ,Gremio,3,1,55,6,1,2,3,11,2,0,0,1,7,0,2,233,194,8,75,39,61,12,4,5,3,5,2,0,0,0,7,0,2,274,244,12,72,27,442,3,1,1,0,0,1
+8/10/19 17:00,BRZ1,Gremio,Flamengo_RJ,Gremio,1,3,45,4,2,0,2,6,2,1,0,0,10,0,2,192,160,11,35,7,39,3,0,2,1,6,1,0,0,2,5,0,0,187,152,12,52,22,4231,0,-1,0,0,1,1
+8/10/19 15:00,BRZ1,Ceara,Ceara,Chapecoense-SC,4,1,46,3,1,2,0,8,2,3,0,1,10,0,2,179,146,11,29,29,32,5,4,0,1,5,0,1,0,1,10,0,1,115,89,11,29,17,4231,3,1,1,0,0,1
+8/10/19 15:00,BRZ1,Chapecoense-SC,Ceara,Chapecoense-SC,1,4,54,6,1,3,2,11,1,0,0,0,6,0,2,207,166,13,34,26,68,8,2,4,2,11,3,1,0,1,5,0,0,250,218,6,48,34,4411,0,-1,0,0,1,1
+8/10/19 15:00,BRZ1,Sao_Paulo,Sao_Paulo,Santos,3,2,48,9,1,6,2,8,1,1,0,1,11,0,3,144,109,7,62,29,38,11,6,4,1,7,4,0,0,0,10,0,3,120,80,5,46,15,4231,3,1,1,0,0,1
+8/10/19 15:00,BRZ1,Santos,Sao_Paulo,Santos,2,3,52,8,2,4,2,12,1,0,0,1,8,0,1,164,124,8,45,16,62,6,1,5,0,9,1,1,0,3,7,0,0,195,155,10,54,21,433,0,-1,0,0,1,1
