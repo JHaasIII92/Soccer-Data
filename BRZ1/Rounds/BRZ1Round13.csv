@@ -1,0 +1,21 @@
+League,Team,Home,Away,GF,GA,First_Half_Ball_Possession,First_Half_Goal_Attempts,First_Half_Shots_on_Goal,First_Half_Shots_off_Goal,First_Half_Blocked_Shots,First_Half_Free_Kicks,First_Half_Corner_Kicks,First_Half_Offsides,First_Half_Throw_in,First_Half_Goalkeeper_Saves,First_Half_Fouls,First_Half_Red_Cards,First_Half_Yellow_Cards,First_Half_Total_Passes,First_Half_Completed_Passes,First_Half_A,First_Half_DA,First_Half_Tackles,Second_Half_Ball_Possession,Second_Half_Goal_Attempts,Second_Half_Shots_on_Goal,Second_Half_Shots_off_Goal,Second_Half_Blocked_Shots,Second_Half_Free_Kicks,Second_Half_A,Second_Half_DA,Second_Half_Corner_Kicks,Second_Half_Offsides,Second_Half_Throw_in,Second_Half_Goalkeeper_Saves,Second_Half_Fouls,Second_Half_Red_Cards,Second_Half_Yellow_Cards,Second_Half_Total_Passes,Second_Half_Completed_Passes,Second_Half_Tackles,Lineup,Points,HomeAway,HW,D,HL,Target
+08/21/2019 17:15,BRZ1,Athletico-PR,Athletico-PR,Sao_Paulo,0,1,50,5,2,3,0,6,4,0,10,1,0,0,1,0,0,0,21,13,58,8,2,6,0,9,2,0,15,1,0,0,2,0,0,0,65,39,433,0,1,0,0,1,-1
+08/21/2019 17:15,BRZ1,Sao_Paulo,Athletico-PR,Sao_Paulo,1,0,50,5,2,3,0,15,1,0,13,2,0,0,1,0,0,0,22,9,42,1,1,0,0,6,0,0,7,2,0,0,2,0,0,0,38,7,4231,3,-1,1,0,0,-1
+08/05/2019 18:00,BRZ1,Gremio,Gremio,Chapecoense-SC,3,3,60,8,5,1,2,7,4,0,0,1,8,0,1,252,219,12,58,29,77,16,4,5,7,9,7,3,0,0,9,0,3,333,301,6,81,56,4231,1,1,0,1,0,0
+08/05/2019 18:00,BRZ1,Chapecoense-SC,Gremio,Chapecoense-SC,3,3,40,7,3,2,2,8,3,0,0,3,7,0,2,167,128,5,59,14,23,2,1,0,1,13,0,0,0,3,9,0,0,100,61,4,37,9,4411,1,-1,0,1,0,0
+08/04/2019 17:00,BRZ1,Atletico-MG,Atletico-MG,Cruzeiro,2,0,34,9,5,2,2,8,5,0,0,3,11,0,0,158,131,8,33,30,42,6,1,3,2,8,1,0,0,1,8,0,2,204,166,10,46,24,4231,3,1,1,0,0,1
+08/04/2019 17:00,BRZ1,Cruzeiro,Atletico-MG,Cruzeiro,0,2,66,6,3,0,3,11,4,0,0,4,8,0,2,319,283,4,73,29,58,7,1,4,2,8,2,2,0,0,5,0,1,279,245,6,75,31,4231,0,-1,0,0,1,1
+08/04/2019 17:00,BRZ1,Corinthians,Corinthians,Palmeiras,1,1,39,5,5,0,0,15,1,0,0,1,6,0,1,155,124,11,46,19,61,4,2,1,1,12,2,1,0,4,5,0,0,216,172,7,72,39,4141,1,1,0,1,0,0
+08/04/2019 17:00,BRZ1,Palmeiras,Corinthians,Palmeiras,1,1,61,3,1,1,1,6,2,2,0,4,13,0,2,236,197,8,55,16,39,5,5,0,0,6,3,1,0,2,11,0,1,136,95,8,48,16,4231,1,-1,0,1,0,0
+08/04/2019 17:00,BRZ1,Vasco,Vasco,CSA,0,0,57,11,1,6,4,11,4,0,0,2,4,0,1,275,241,7,37,21,57,7,1,4,2,3,4,0,0,0,8,0,3,238,191,5,41,31,4231,1,1,0,1,0,0
+08/04/2019 17:00,BRZ1,CSA,Vasco,CSA,0,0,43,5,2,2,1,4,3,1,0,1,10,0,1,206,162,10,34,15,43,6,0,3,3,6,1,0,0,1,5,0,0,188,123,10,44,10,4231,1,-1,0,1,0,0
+08/04/2019 14:00,BRZ1,Avai,Avai,Botafogo_RJ,0,2,54,14,2,6,6,3,9,2,0,3,3,0,0,230,197,7,60,66,66,16,2,6,8,8,7,1,0,0,9,1,2,277,238,11,87,63,4231,0,1,0,0,1,-1
+08/04/2019 14:00,BRZ1,Botafogo_RJ,Avai,Botafogo_RJ,2,0,46,5,4,0,1,5,1,0,0,2,3,0,0,221,182,11,38,18,34,4,1,3,0,10,0,0,0,2,8,0,1,143,107,8,37,8,4141,3,-1,1,0,0,-1
+08/04/2019 14:00,BRZ1,Bahia,Bahia,Flamengo_RJ,3,0,36,4,4,0,0,11,3,2,0,1,11,0,0,141,92,15,46,14,26,6,3,1,2,5,1,2,0,0,7,1,1,130,87,9,43,13,433,3,1,1,0,0,1
+08/04/2019 14:00,BRZ1,Flamengo_RJ,Bahia,Flamengo_RJ,0,3,64,6,1,1,4,13,5,1,0,1,10,0,1,240,187,7,69,32,74,7,0,4,3,9,2,1,0,3,4,0,0,343,299,8,90,40,4231,0,-1,0,0,1,1
+08/04/2019 09:00,BRZ1,Santos,Santos,Goias,6,1,65,11,6,4,1,5,5,1,0,0,7,0,1,238,198,11,45,37,57,8,4,1,3,4,1,3,0,1,8,0,2,263,225,7,37,16,433,3,1,1,0,0,1
+08/04/2019 09:00,BRZ1,Goias,Santos,Goias,1,6,35,7,0,5,2,8,2,0,0,3,5,0,3,130,94,9,36,12,43,12,2,3,7,11,4,1,0,1,3,0,1,180,150,4,49,34,4231,0,-1,0,0,1,1
+08/03/2019 17:00,BRZ1,Ceara,Ceara,Fortaleza,2,1,33,7,3,2,2,3,8,2,0,0,6,0,1,100,59,13,38,28,38,5,1,3,1,14,0,1,0,3,7,0,2,126,81,12,44,15,4231,3,1,1,0,0,1
+08/03/2019 17:00,BRZ1,Fortaleza,Ceara,Fortaleza,1,2,67,3,1,1,1,8,1,1,0,1,3,0,0,215,175,8,57,14,62,8,3,2,3,11,3,1,0,1,13,1,2,211,176,4,67,11,442,0,-1,0,0,1,1
+08/03/2019 17:00,BRZ1,Fluminense,Fluminense,Internacional,2,1,60,9,2,6,1,8,3,0,0,2,4,0,0,309,272,5,66,33,62,13,4,3,6,4,5,0,0,1,4,0,1,329,294,14,61,49,4141,3,1,1,0,0,1
+08/03/2019 17:00,BRZ1,Internacional,Fluminense,Internacional,1,2,40,10,2,4,4,4,4,0,0,2,8,0,0,207,168,6,61,18,38,5,2,1,2,3,1,0,0,2,4,0,2,205,177,6,48,13,433,0,-1,0,0,1,1

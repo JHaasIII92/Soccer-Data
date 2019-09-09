@@ -1,0 +1,21 @@
+League,Team,Home,Away,GF,GA,First_Half_Ball_Possession,First_Half_Goal_Attempts,First_Half_Shots_on_Goal,First_Half_Shots_off_Goal,First_Half_Blocked_Shots,First_Half_Free_Kicks,First_Half_Corner_Kicks,First_Half_Offsides,First_Half_Throw_in,First_Half_Goalkeeper_Saves,First_Half_Fouls,First_Half_Red_Cards,First_Half_Yellow_Cards,First_Half_Total_Passes,First_Half_Completed_Passes,First_Half_A,First_Half_DA,First_Half_Tackles,Second_Half_Ball_Possession,Second_Half_Goal_Attempts,Second_Half_Shots_on_Goal,Second_Half_Shots_off_Goal,Second_Half_Blocked_Shots,Second_Half_Free_Kicks,Second_Half_A,Second_Half_DA,Second_Half_Corner_Kicks,Second_Half_Offsides,Second_Half_Throw_in,Second_Half_Goalkeeper_Saves,Second_Half_Fouls,Second_Half_Red_Cards,Second_Half_Yellow_Cards,Second_Half_Total_Passes,Second_Half_Completed_Passes,Second_Half_Tackles,Lineup,Points,HomeAway,HW,D,HL,Target
+08/18/2019 17:00,BRZ1,Chapecoense-SC,Chapecoense-SC,Avai,1,0,43,7,1,2,4,11,4,2,0,0,16,0,0,158,124,6,32,10,39,5,1,3,1,5,1,0,0,0,9,0,1,159,95,14,50,21,4231,3,1,1,0,0,1
+08/18/2019 17:00,BRZ1,Avai,Chapecoense-SC,Avai,0,1,57,2,0,2,0,18,2,1,0,1,10,0,0,206,170,6,34,13,61,3,0,3,0,9,1,1,0,0,5,0,0,240,177,8,48,19,433,0,-1,0,0,1,1
+08/18/2019 14:00,BRZ1,Bahia,Bahia,Goias,1,1,49,9,1,5,3,8,4,1,0,1,4,1,1,219,183,11,24,9,47,7,2,4,1,7,2,0,0,2,3,0,1,217,175,8,56,37,4231,1,1,0,1,0,0
+08/18/2019 14:00,BRZ1,Goias,Bahia,Goias,1,1,51,2,2,0,0,4,1,1,0,1,7,0,2,220,184,10,26,11,53,9,2,7,0,3,5,0,0,1,6,0,1,249,199,10,51,43,442,1,-1,0,1,0,0
+08/18/2019 14:00,BRZ1,Cruzeiro,Cruzeiro,Santos,2,0,69,12,5,3,4,3,6,1,0,1,9,0,2,250,232,3,33,30,63,9,5,3,1,5,2,0,0,1,7,0,0,325,302,10,56,31,4231,3,1,1,0,0,1
+08/18/2019 14:00,BRZ1,Santos,Cruzeiro,Santos,0,2,31,1,1,0,0,10,3,0,0,4,3,1,0,115,87,5,27,13,37,2,1,1,0,7,1,1,0,4,4,0,0,181,162,3,45,25,343,0,-1,0,0,1,1
+08/18/2019 14:00,BRZ1,Fluminense,Fluminense,CSA,0,1,61,15,6,7,2,3,2,1,0,2,3,0,0,341,315,7,29,28,73,18,6,7,5,14,5,0,0,0,4,0,1,347,314,6,74,67,4231,0,1,0,0,1,-1
+08/18/2019 14:00,BRZ1,CSA,Fluminense,CSA,1,0,39,4,2,2,0,4,1,0,0,6,3,0,0,213,170,14,21,10,27,1,1,0,0,3,0,1,0,6,13,0,2,134,82,10,38,14,4222,3,-1,1,0,0,-1
+08/18/2019 14:00,BRZ1,Sao_Paulo,Sao_Paulo,Ceara,1,0,61,4,2,1,1,10,3,2,0,2,4,0,0,244,207,12,16,17,55,8,4,1,3,6,2,2,0,3,8,0,3,215,175,10,39,26,4141,3,1,1,0,0,1
+08/18/2019 14:00,BRZ1,Ceara,Sao_Paulo,Ceara,0,1,39,5,2,1,2,6,6,0,0,1,10,0,1,151,108,8,23,16,45,5,3,2,0,10,5,0,0,4,6,0,1,170,123,9,30,19,4231,0,-1,0,0,1,1
+08/17/2019 19:00,BRZ1,Gremio,Gremio,Palmeiras,1,1,70,3,0,3,0,8,0,0,0,4,8,0,0,357,319,5,73,12,64,11,3,2,6,7,3,0,0,2,5,0,0,274,245,5,64,25,4231,1,1,0,1,0,0
+08/17/2019 19:00,BRZ1,Palmeiras,Gremio,Palmeiras,1,1,30,9,5,2,2,8,1,1,0,0,7,0,0,153,122,5,41,11,36,6,2,2,2,4,1,0,0,2,7,0,0,153,121,9,45,14,4141,1,-1,0,1,0,0
+08/17/2019 17:00,BRZ1,Athletico-PR,Athletico-PR,Atletico-MG,1,0,47,5,3,2,0,9,1,0,0,3,4,0,0,0,0,0,40,22,47,5,1,4,0,10,2,0,0,6,9,0,3,0,0,0,43,20,4231,3,1,1,0,0,1
+08/17/2019 17:00,BRZ1,Atletico-MG,Athletico-PR,Atletico-MG,0,1,53,5,3,2,0,4,3,0,0,2,7,0,1,0,0,0,30,11,53,10,6,4,0,10,2,0,0,1,9,0,0,0,0,0,41,19,4231,0,-1,0,0,1,1
+08/17/2019 17:00,BRZ1,Vasco,Vasco,Flamengo_RJ,1,4,37,5,1,4,0,6,2,0,0,2,7,0,0,160,121,4,46,19,47,6,5,1,0,9,5,0,0,4,5,0,0,184,165,12,47,17,433,0,1,0,0,1,-1
+08/17/2019 17:00,BRZ1,Flamengo_RJ,Vasco,Flamengo_RJ,4,1,63,7,3,2,2,8,1,0,0,1,7,0,0,282,247,12,61,26,53,10,7,2,1,4,6,0,0,4,11,0,3,208,184,12,41,28,433,3,-1,1,0,0,-1
+08/17/2019 15:00,BRZ1,Corinthians,Corinthians,Botafogo_RJ,2,0,48,13,7,3,3,7,5,0,0,1,9,0,0,232,208,4,59,38,38,5,2,2,1,8,2,2,0,2,8,0,2,160,136,10,34,13,4141,3,1,1,0,0,1
+08/17/2019 15:00,BRZ1,Botafogo_RJ,Corinthians,Botafogo_RJ,0,2,52,2,1,1,0,9,1,1,0,6,6,0,1,267,235,5,38,8,62,6,2,3,1,9,1,1,0,1,7,0,2,277,253,2,50,19,4231,0,-1,0,0,1,1
+08/17/2019 15:00,BRZ1,Fortaleza,Fortaleza,Internacional,0,1,55,10,2,4,4,8,3,0,0,0,5,0,0,263,233,4,53,24,55,5,2,3,0,8,4,0,0,1,9,1,3,223,193,4,51,18,4411,0,1,0,0,1,-1
+08/17/2019 15:00,BRZ1,Internacional,Fortaleza,Internacional,1,0,45,2,0,1,1,8,0,2,0,2,8,0,1,216,182,6,56,7,45,5,2,2,1,7,0,2,0,2,6,0,1,195,167,7,33,12,433,3,-1,1,0,0,-1
